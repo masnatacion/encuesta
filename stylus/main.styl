@@ -1,0 +1,60 @@
+ROOT_PATH = "../"
+
+LIGHT_GRAY 	= #F5F5F5
+LETTER_COLOR = #4d4d4d
+
+@import "nib"
+@import "normalize.styl"
+@import "foundation.styl"
+
+body
+	background LIGHT_GRAY
+	color LETTER_COLOR
+	font-family 'Open Sans',Arial
+	font-size 16px
+	font-weight 300
+ul
+	margin 0
+	padding 0
+li
+	list-style none
+
+
+.block
+	overflow hidden
+	display block
+
+.text-center
+	text-align center
+
+.no-margin
+	margin 0
+
+.no-padding
+	padding 0
+
+.margin
+	margin .6em
+
+.padding
+	padding .6em
+
+.browsehappy
+	background #FAC45A
+	margin 0
+	padding 1em
+	position fixed
+	width 100%
+	a
+		color blue
+		font-weight bold
+
+
+
+.survey
+	.question
+		padding: 1em;
+		overflow: hidden;
+		.title
+			font-size 1.2em
+				
