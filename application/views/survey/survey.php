@@ -608,6 +608,7 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        	<label class="text-right">
 	            	<textarea name="answer14" id="" cols="30" rows="5"></textarea>
 				</label>
+				<small class="error">Este campo es requerido.</small>
 	        </div>
 	    </section>
 
@@ -622,12 +623,16 @@ ocasional, “pololos”, cuidador de autos, limosna).
 				</label>
 	        </div>
 	        <div class="column small-4">
-            	<select required  name="answer15" id="">
-            		<option value="">Elige una opción</option>
-            		<option value="Sí">Sí</option>
-            		<option value="No">No</option>
-            		<option value="No lo sé/ No estoy seguro(a)">No lo sé/ No estoy seguro(a)</option>
-            	</select>
+	        	<label for="">
+	            	<select required  name="answer15" id="">
+	            		<option value="">Elige una opción</option>
+	            		<option value="Sí">Sí</option>
+	            		<option value="No">No</option>
+	            		<option value="No lo sé/ No estoy seguro(a)">No lo sé/ No estoy seguro(a)</option>
+	            	</select>
+	        	</label>
+
+            	<small class="error">Este campo es requerido.</small>
 	        </div>
 
 	        <div class="column small-8">
@@ -636,12 +641,16 @@ ocasional, “pololos”, cuidador de autos, limosna).
 				</label>
 	        </div>
 	        <div class="column small-4">
-            	<select required  name="answer16" id="">
-            		<option value="">Elige una opción</option>
-            		<option value="Sí">Sí</option>
-            		<option value="No">No</option>
-            		<option value="No lo sé/ No estoy seguro(a)">No lo sé/ No estoy seguro(a)</option>
-            	</select>
+	        	<label for="">
+	            	<select required  name="answer16" id="">
+	            		<option value="">Elige una opción</option>
+	            		<option value="Sí">Sí</option>
+	            		<option value="No">No</option>
+	            		<option value="No lo sé/ No estoy seguro(a)">No lo sé/ No estoy seguro(a)</option>
+	            	</select>
+	        	</label>
+
+            	<small class="error">Este campo es requerido.</small>
 	        </div>
 
 	        <div class="column small-8">
@@ -650,12 +659,16 @@ ocasional, “pololos”, cuidador de autos, limosna).
 				</label>
 	        </div>
 	        <div class="column small-4">
-            	<select required  name="answer17" id="">
-            		<option value="">Elige una opción</option>
-            		<option value="Sí">Sí</option>
-            		<option value="No">No</option>
-            		<option value="No lo sé/ No estoy seguro(a)">No lo sé/ No estoy seguro(a)</option>
-            	</select>
+	        	<label for="">
+	            	<select required  name="answer17" id="">
+	            		<option value="">Elige una opción</option>
+	            		<option value="Sí">Sí</option>
+	            		<option value="No">No</option>
+	            		<option value="No lo sé/ No estoy seguro(a)">No lo sé/ No estoy seguro(a)</option>
+	            	</select>
+	        	</label>
+
+            	<small class="error">Este campo es requerido.</small>
 	        </div>
 
 	        <div class="column small-8">
@@ -664,12 +677,16 @@ ocasional, “pololos”, cuidador de autos, limosna).
 				</label>
 	        </div>
 	        <div class="column small-4">
-            	<select required  name="answer18" id="">
-            		<option value="">Elige una opción</option>
-            		<option value="Sí">Sí</option>
-            		<option value="No">No</option>
-            		<option value="No lo sé/ No estoy seguro(a)">No lo sé/ No estoy seguro(a)</option>
-            	</select>
+	        	<label for="">
+	            	<select required  name="answer18" id="">
+	            		<option value="">Elige una opción</option>
+	            		<option value="Sí">Sí</option>
+	            		<option value="No">No</option>
+	            		<option value="No lo sé/ No estoy seguro(a)">No lo sé/ No estoy seguro(a)</option>
+	            	</select>
+	        	</label>
+
+            	<small class="error">Este campo es requerido.</small>
 	        </div>
 
 	        <div class="column small-8">
@@ -678,12 +695,16 @@ ocasional, “pololos”, cuidador de autos, limosna).
 				</label>
 	        </div>
 	        <div class="column small-4">
-            	<select required  name="answer19" id="">
-            		<option value="">Elige una opción</option>
-            		<option value="Sí">Sí</option>
-            		<option value="No">No</option>
-            		<option value="No lo sé/ No estoy seguro(a)">No lo sé/ No estoy seguro(a)</option>
-            	</select>
+	        	<label for="">
+	            	<select required  name="answer19" id="">
+	            		<option value="">Elige una opción</option>
+	            		<option value="Sí">Sí</option>
+	            		<option value="No">No</option>
+	            		<option value="No lo sé/ No estoy seguro(a)">No lo sé/ No estoy seguro(a)</option>
+	            	</select>
+	        	</label>
+
+            	<small class="error">Este campo es requerido.</small>
 	        </div>
 
 
@@ -693,12 +714,16 @@ ocasional, “pololos”, cuidador de autos, limosna).
 				</label>
 	        </div>
 	        <div class="column small-4">
-            	<select required  name="answer20" id="">
-            		<option value="">Elige una opción</option>
-            		<option value="Sí">Sí</option>
-            		<option value="No">No</option>
-            		<option value="No lo sé/ No estoy seguro(a)">No lo sé/ No estoy seguro(a)</option>
-            	</select>
+	        	<label for="">
+	            	<select required  name="answer20" id="">
+	            		<option value="">Elige una opción</option>
+	            		<option value="Sí">Sí</option>
+	            		<option value="No">No</option>
+	            		<option value="No lo sé/ No estoy seguro(a)">No lo sé/ No estoy seguro(a)</option>
+	            	</select>
+	        	</label>
+
+            	<small class="error">Este campo es requerido.</small>
 	        </div>
 
 
@@ -708,12 +733,16 @@ ocasional, “pololos”, cuidador de autos, limosna).
 				</label>
 	        </div>
 	        <div class="column small-4">
-            	<select required  name="answer21" id="">
-            		<option value="">Elige una opción</option>
-            		<option value="Sí">Sí</option>
-            		<option value="No">No</option>
-            		<option value="No lo sé/ No estoy seguro(a)">No lo sé/ No estoy seguro(a)</option>
-            	</select>
+				<label for="">
+	            	<select required  name="answer21" id="">
+	            		<option value="">Elige una opción</option>
+	            		<option value="Sí">Sí</option>
+	            		<option value="No">No</option>
+	            		<option value="No lo sé/ No estoy seguro(a)">No lo sé/ No estoy seguro(a)</option>
+	            	</select>
+				</label>
+
+            	<small class="error">Este campo es requerido.</small>
 	        </div>
 	    </section>
 
