@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="css/main.css?v=0.0.2">
 
         <script src="js/vendor/modernizr.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery.js"></script>
     </head>
     <body>
 
