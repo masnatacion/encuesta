@@ -243,11 +243,6 @@ class baseDAO extends CI_Model {
 	
     	if(count($data) >0 && is_array($data))
     	{
-	    $data = array_merge($data,array(
-			"Date"		=> date("Y-m-d"),
-			"Time"		=> date("H:m:s"),
-			"ID_admin_users"=> "1",
-	    ));
 	    
 
 	    $this->db->insert($this->table, $data);

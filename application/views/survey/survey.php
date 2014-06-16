@@ -2,7 +2,7 @@
 $this->load->view("header");
 ?>
 
-<form id="survey" data-abide>
+<form id="survey" data-abide="ajax">
 <section class="main-section survey">
 
     <div class="row">
@@ -17,45 +17,45 @@ $this->load->view("header");
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer1" value="No terminé la escuela elemental"> No terminé la escuela elemental
+	            	<input type="radio" required  name="educacion" value="No terminé la escuela elemental"> No terminé la escuela elemental
 	        	</label>
 
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer1" value="Terminé la escuela elemental"> Terminé la escuela elemental
+	            	<input type="radio" required  name="educacion" value="Terminé la escuela elemental"> Terminé la escuela elemental
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer1" value="No terminé la secundaria"> No terminé la secundaria
+	            	<input type="radio" required  name="educacion" value="No terminé la secundaria"> No terminé la secundaria
 	            </label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer1" value="Terminé la secundaria"> Terminé la secundaria
+	            	<input type="radio" required  name="educacion" value="Terminé la secundaria"> Terminé la secundaria
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer1" value="Cursé estudios universitarios, escuela vocacional o técnica pero no tengo un"> Cursé estudios universitarios, escuela vocacional o técnica pero no tengo un
+	            	<input type="radio" required  name="educacion" value="Cursé estudios universitarios, escuela vocacional o técnica pero no tengo un"> Cursé estudios universitarios, escuela vocacional o técnica pero no tengo un
 
 diploma
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer1"> Diploma universitario, vocacional o técnico
+	            	<input type="radio" required  name="educacion" value="Diploma universitario, vocacional o técnico"> Diploma universitario, vocacional o técnico
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer1"> Posgrado (Máster, Doctorado o Certificación profesional equivalente)
+	            	<input type="radio" required  name="educacion" value="Posgrado (Máster, Doctorado o Certificación profesional equivalente)"> Posgrado (Máster, Doctorado o Certificación profesional equivalente)
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer1"> No estoy seguro(a)/No lo sé/Prefiero no responder
+	            	<input type="radio" required  name="educacion" value="No estoy seguro(a)/No lo sé/Prefiero no responder"> No estoy seguro(a)/No lo sé/Prefiero no responder
 				</label>	        
 	        </div>
 		</section>
@@ -68,39 +68,39 @@ diploma
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer2" value="Trabajos menores ocasionales e informales (lavado, aseo, servicio doméstico ocasional, “pololos”, cuidador de autos, limosna)."> Trabajos menores ocasionales e informales (lavado, aseo, servicio doméstico 
+	            	<input type="radio" required  name="profesion" value="Trabajos menores ocasionales e informales (lavado, aseo, servicio doméstico ocasional, “pololos”, cuidador de autos, limosna)."> Trabajos menores ocasionales e informales (lavado, aseo, servicio doméstico 
 
 ocasional, “pololos”, cuidador de autos, limosna).
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer2" value="Oficio menor, obrero no calificado, jornalero, servicio doméstico con contrato"> Oficio menor, obrero no calificado, jornalero, servicio doméstico con contrato
+	            	<input type="radio" required  name="profesion" value="Oficio menor, obrero no calificado, jornalero, servicio doméstico con contrato"> Oficio menor, obrero no calificado, jornalero, servicio doméstico con contrato
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer2" value="Obrero calificado, capataz, junior, micro empresario (kiosco, taxi, comercio menor, ambulante)."> Obrero calificado, capataz, junior, micro empresario (kiosco, taxi, comercio menor, ambulante).
+	            	<input type="radio" required  name="profesion" value="Obrero calificado, capataz, junior, micro empresario (kiosco, taxi, comercio menor, ambulante)."> Obrero calificado, capataz, junior, micro empresario (kiosco, taxi, comercio menor, ambulante).
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer2" value="Empleado administrativo medio y bajo, vendedor, secretaria, jefe de sección. Técnico especializado. Profesional independiente de carreras técnicas (contador, analista de sistemas, diseñador, músico). Profesor Primario o Secundario"> Empleado administrativo medio y bajo, vendedor, secretaria, jefe de sección. Técnico especializado. Profesional independiente de carreras técnicas (contador, analista de sistemas, diseñador, músico). Profesor Primario o Secundario
+	            	<input type="radio" required  name="profesion" value="Empleado administrativo medio y bajo, vendedor, secretaria, jefe de sección. Técnico especializado. Profesional independiente de carreras técnicas (contador, analista de sistemas, diseñador, músico). Profesor Primario o Secundario"> Empleado administrativo medio y bajo, vendedor, secretaria, jefe de sección. Técnico especializado. Profesional independiente de carreras técnicas (contador, analista de sistemas, diseñador, músico). Profesor Primario o Secundario
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer2" value="Ejecutivo medio (gerente, sub-gerente), gerente general de empresa media o pequeña. Profesional independiente de carreras tradicionales (abogado, médico, arquitecto, ingeniero, agrónomo)."> Ejecutivo medio (gerente, sub-gerente), gerente general de empresa media o pequeña. Profesional independiente de carreras tradicionales (abogado, médico, arquitecto, ingeniero, agrónomo).
+	            	<input type="radio" required  name="profesion" value="Ejecutivo medio (gerente, sub-gerente), gerente general de empresa media o pequeña. Profesional independiente de carreras tradicionales (abogado, médico, arquitecto, ingeniero, agrónomo)."> Ejecutivo medio (gerente, sub-gerente), gerente general de empresa media o pequeña. Profesional independiente de carreras tradicionales (abogado, médico, arquitecto, ingeniero, agrónomo).
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer2" value="Alto ejecutivo (gerente general) de empresa grande. Directores de grandes empresas. Empresarios propietarios de empresas medianas y grandes. Profesionales independientes de gran prestigio"> Alto ejecutivo (gerente general) de empresa grande. Directores de grandes empresas. Empresarios propietarios de empresas medianas y grandes. Profesionales independientes de gran prestigio
+	            	<input type="radio" required  name="profesion" value="Alto ejecutivo (gerente general) de empresa grande. Directores de grandes empresas. Empresarios propietarios de empresas medianas y grandes. Profesionales independientes de gran prestigio"> Alto ejecutivo (gerente general) de empresa grande. Directores de grandes empresas. Empresarios propietarios de empresas medianas y grandes. Profesionales independientes de gran prestigio
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer2" value="No estoy seguro(a)/No lo sé/Prefiero no responder"> No estoy seguro(a)/No lo sé/Prefiero no responder
+	            	<input type="radio" required  name="profesion" value="No estoy seguro(a)/No lo sé/Prefiero no responder"> No estoy seguro(a)/No lo sé/Prefiero no responder
 				</label>	        
 	        </div>
 
@@ -113,7 +113,7 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="text" name="grado">
+	            	<input type="text" name="pais">
 				</label>
 	        </div>
 
@@ -126,52 +126,52 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer3" value="Menor de 19 años"> Menor de 19 años
+	            	<input type="radio" required  name="edad" value="Menor de 19 años"> Menor de 19 años
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer3" value="19 a 25 años"> 19 a 25 años
+	            	<input type="radio" required  name="edad" value="19 a 25 años"> 19 a 25 años
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer3" value="26 a 30 años"> 26 a 30 años
+	            	<input type="radio" required  name="edad" value="26 a 30 años"> 26 a 30 años
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer3" value="31 a 35 años"> 31 a 35 años
+	            	<input type="radio" required  name="edad" value="31 a 35 años"> 31 a 35 años
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer3" value="36 a 40 años"> 36 a 40 años
+	            	<input type="radio" required  name="edad" value="36 a 40 años"> 36 a 40 años
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer3" value="41 a 46 años"> 41 a 46 años 
+	            	<input type="radio" required  name="edad" value="41 a 46 años"> 41 a 46 años 
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer3" value="47 a 50 años"> 47 a 50 años
+	            	<input type="radio" required  name="edad" value="47 a 50 años"> 47 a 50 años
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer3" value="51 a 55 años"> 51 a 55 años
+	            	<input type="radio" required  name="edad" value="51 a 55 años"> 51 a 55 años
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer3" value="56 años o mayor"> 56 años o mayor
+	            	<input type="radio" required  name="edad" value="56 años o mayor"> 56 años o mayor
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer3" value="56 años o mayor"> Prefiero no responder
+	            	<input type="radio" required  name="edad" value="56 años o mayor"> Prefiero no responder
 				</label>	        
 	        </div>
 
@@ -185,17 +185,17 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer4" value="Hombre"> Hombre
+	            	<input type="radio" required  name="sexo" value="Hombre"> Hombre
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer4" value="Mujer"> Mujer
+	            	<input type="radio" required  name="sexo" value="Mujer"> Mujer
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer4" value="Prefiero no responder"> Prefiero no responder
+	            	<input type="radio" required  name="sexo" value="Prefiero no responder"> Prefiero no responder
 				</label>
 	        </div>
 
@@ -208,42 +208,42 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer5" value="Empleado a tiempo complete"> Empleado a tiempo complete
+	            	<input type="radio" required  name="situacion_laboral" value="Empleado a tiempo complete"> Empleado a tiempo complete
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer5" value="Empleado a tiempo parcial"> Empleado a tiempo parcial
+	            	<input type="radio" required  name="situacion_laboral" value="Empleado a tiempo parcial"> Empleado a tiempo parcial
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer5" value="Autónomo"> Autónomo
+	            	<input type="radio" required  name="situacion_laboral" value="Autónomo"> Autónomo
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer5" value="Administración del hogar/ama de casa"> Administración del hogar/ama de casa
+	            	<input type="radio" required  name="situacion_laboral" value="Administración del hogar/ama de casa"> Administración del hogar/ama de casa
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer5" value="Estudiante"> Estudiante
+	            	<input type="radio" required  name="situacion_laboral" value="Estudiante"> Estudiante
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer5" value="Retirado/a"> Retirado/a
+	            	<input type="radio" required  name="situacion_laboral" value="Retirado/a"> Retirado/a
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer5" value="Desempleado/a"> Desempleado/a
+	            	<input type="radio" required  name="situacion_laboral" value="Desempleado/a"> Desempleado/a
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer5" value="Prefiero no responder"> Prefiero no responder
+	            	<input type="radio" required  name="situacion_laboral" value="Prefiero no responder"> Prefiero no responder
 				</label>
 	        </div>
 
@@ -257,12 +257,12 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer6" value="Si"> Si
+	            	<input type="radio" required  name="internet" value="Si"> Si
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer6" value="No"> No
+	            	<input type="radio" required  name="internet" value="No"> No
 	        	</label>
 	        </div>
 
@@ -275,22 +275,22 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer7" value="Hacer compras"> Hacer compras
+	            	<input type="radio" required  name="actividad_internet" value="Hacer compras"> Hacer compras
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer7" value="Pagar facturas"> Pagar facturas
+	            	<input type="radio" required  name="actividad_internet" value="Pagar facturas"> Pagar facturas
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer7" value="Transferir dinero a alguien dentro de mi país"> Transferir dinero a alguien dentro de mi país
+	            	<input type="radio" required  name="actividad_internet" value="Transferir dinero a alguien dentro de mi país"> Transferir dinero a alguien dentro de mi país
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer7" value="Transferir dinero a alguien en otro país"> Transferir dinero a alguien en otro país
+	            	<input type="radio" required  name="actividad_internet" value="Transferir dinero a alguien en otro país"> Transferir dinero a alguien en otro país
 	        	</label>
 	        </div>
 		</section>
@@ -302,27 +302,27 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer8" value="Definitivamente Si"> Definitivamente Si
+	            	<input type="radio" required  name="aprender_habilidades" value="Definitivamente Si"> Definitivamente Si
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer8" value="Muy probable"> Muy probable
+	            	<input type="radio" required  name="aprender_habilidades" value="Muy probable"> Muy probable
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer8" value="Probable"> Probable
+	            	<input type="radio" required  name="aprender_habilidades" value="Probable"> Probable
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer8" value="Poco probable"> Poco probable
+	            	<input type="radio" required  name="aprender_habilidades" value="Poco probable"> Poco probable
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer8" value="Definitivamente no"> Definitivamente no
+	            	<input type="radio" required  name="aprender_habilidades" value="Definitivamente no"> Definitivamente no
 	        	</label>
 	        </div>
 		</section>
@@ -333,27 +333,27 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer9" value="Definitivamente Si"> Definitivamente Si
+	            	<input type="radio" required  name="redefinir_habilidades" value="Definitivamente Si"> Definitivamente Si
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer9" value="Muy probable"> Muy probable
+	            	<input type="radio" required  name="redefinir_habilidades" value="Muy probable"> Muy probable
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer9" value="Probable"> Probable
+	            	<input type="radio" required  name="redefinir_habilidades" value="Probable"> Probable
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer9" value="Poco probable"> Poco probable
+	            	<input type="radio" required  name="redefinir_habilidades" value="Poco probable"> Poco probable
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer9" value="Definitivamente no"> Definitivamente no
+	            	<input type="radio" required  name="redefinir_habilidades" value="Definitivamente no"> Definitivamente no
 	        	</label>
 	        </div>
 		</section>
@@ -364,92 +364,92 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Diseno y desarrollo de paginas Web"> Diseno y desarrollo de paginas Web
+	            	<input type="checkbox"  name="areas_estudiar" value="Diseño y desarrollo de paginas Web"> Diseño y desarrollo de paginas Web
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Programacion en Java"> Programacion en Java
+	            	<input type="checkbox"  name="areas_estudiar" value="Programacion en Java"> Programacion en Java
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Diseno y desarrollo de aplicaciones Android / IOS"> Diseno y desarrollo de aplicaciones Android / IOS
+	            	<input type="checkbox"  name="areas_estudiar" value="Diseño y desarrollo de aplicaciones Android / IOS"> Diseño y desarrollo de aplicaciones Android / IOS
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Administracion de Redes (e.g., Cisco)"> Administracion de Redes (e.g., Cisco)
+	            	<input type="checkbox"  name="areas_estudiar" value="Administracion de Redes (e.g., Cisco)"> Administracion de Redes (e.g., Cisco)
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Programacion SQL"> Programacion SQL
+	            	<input type="checkbox"  name="areas_estudiar" value="Programacion SQL"> Programacion SQL
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Programacion PHP/Perl"> Programacion PHP/Perl
+	            	<input type="checkbox"  name="areas_estudiar" value="Programacion PHP/Perl"> Programacion PHP/Perl
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Diseño grafico"> Diseño grafico
+	            	<input type="checkbox"  name="areas_estudiar" value="Diseño grafico"> Diseño grafico
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Control de calidad / Six Sigma"> Control de calidad / Six Sigma
+	            	<input type="checkbox"  name="areas_estudiar" value="Control de calidad / Six Sigma"> Control de calidad / Six Sigma
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Administracion de Proyectos (Project Management)"> Administracion de Proyectos (Project Management)
+	            	<input type="checkbox"  name="areas_estudiar" value="Administracion de Proyectos (Project Management)"> Administracion de Proyectos (Project Management)
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Marketing Digital y Generacion de Demanda (User Acquisition)"> Marketing Digital y Generacion de Demanda (User Acquisition)
+	            	<input type="checkbox"  name="areas_estudiar" value="Marketing Digital y Generacion de Demanda (User Acquisition)"> Marketing Digital y Generacion de Demanda (User Acquisition)
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Social Media"> Social Media
+	            	<input type="checkbox"  name="areas_estudiar" value="Social Media"> Social Media
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Manejo y Administracion de Contratos"> Manejo y Administracion de Contratos
+	            	<input type="checkbox"  name="areas_estudiar" value="Manejo y Administracion de Contratos"> Manejo y Administracion de Contratos
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Desarrollo y Gerencia de Productos en línea"> Desarrollo y Gerencia de Productos en línea
+	            	<input type="checkbox"  name="areas_estudiar" value="Desarrollo y Gerencia de Productos en línea"> Desarrollo y Gerencia de Productos en línea
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Como ser un emprendedor (Entrepreunership) "> Como ser un emprendedor (Entrepreunership) 
+	            	<input type="checkbox"  name="areas_estudiar" value="Como ser un emprendedor (Entrepreunership) "> Como ser un emprendedor (Entrepreunership) 
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Como usar Excel, Powerpoint y Microsoftword"> Como usar Excel, Powerpoint y Microsoftword
+	            	<input type="checkbox"  name="areas_estudiar" value="Como usar Excel, Powerpoint y Microsoftword"> Como usar Excel, Powerpoint y Microsoftword
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Aprender a hablar en Ingles"> Aprender a hablar en Ingles
+	            	<input type="checkbox"  name="areas_estudiar" value="Aprender a hablar en Ingles"> Aprender a hablar en Ingles
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Analisis de datos (Data Science)"> Analisis de datos (Data Science)
+	            	<input type="checkbox"  name="areas_estudiar" value="Analisis de datos (Data Science)"> Analisis de datos (Data Science)
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="checkbox" required  name="answer10" value="Ninguna de estas opciones me interesa"> Ninguna de estas opciones me interesa
+	            	<input type="checkbox"  name="areas_estudiar" value="Ninguna de estas opciones me interesa"> Ninguna de estas opciones me interesa
 	        	</label>
 	        </div>
 		</section>
@@ -460,92 +460,92 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Diseno y desarrollo de paginas Web"> Diseno y desarrollo de paginas Web
+	            	<input type="radio" required  name="programas_interesa" value="Diseño y desarrollo de paginas Web"> Diseño y desarrollo de paginas Web
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Programacion en Java"> Programacion en Java
+	            	<input type="radio" required  name="programas_interesa" value="Programacion en Java"> Programacion en Java
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Diseno y desarrollo de aplicaciones Android / IOS"> Diseno y desarrollo de aplicaciones Android / IOS
+	            	<input type="radio" required  name="programas_interesa" value="Diseño y desarrollo de aplicaciones Android / IOS"> Diseño y desarrollo de aplicaciones Android / IOS
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Administracion de Redes (e.g., Cisco)"> Administracion de Redes (e.g., Cisco)
+	            	<input type="radio" required  name="programas_interesa" value="Administracion de Redes (e.g., Cisco)"> Administracion de Redes (e.g., Cisco)
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Programacion SQL"> Programacion SQL
+	            	<input type="radio" required  name="programas_interesa" value="Programacion SQL"> Programacion SQL
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Programacion PHP/Perl"> Programacion PHP/Perl
+	            	<input type="radio" required  name="programas_interesa" value="Programacion PHP/Perl"> Programacion PHP/Perl
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Diseno grafico"> Diseno grafico
+	            	<input type="radio" required  name="programas_interesa" value="Diseño grafico"> Diseño grafico
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Control de calidad / Six Sigma"> Control de calidad / Six Sigma
+	            	<input type="radio" required  name="programas_interesa" value="Control de calidad / Six Sigma"> Control de calidad / Six Sigma
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Administracion de Proyectos (Project Management)"> Administracion de Proyectos (Project Management)
+	            	<input type="radio" required  name="programas_interesa" value="Administracion de Proyectos (Project Management)"> Administracion de Proyectos (Project Management)
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Marketing Digital y Generacion de Demanda (User Acquisition)"> Marketing Digital y Generacion de Demanda (User Acquisition)
+	            	<input type="radio" required  name="programas_interesa" value="Marketing Digital y Generacion de Demanda (User Acquisition)"> Marketing Digital y Generacion de Demanda (User Acquisition)
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Social Media"> Social Media
+	            	<input type="radio" required  name="programas_interesa" value="Social Media"> Social Media
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Manejo y Administracion de Contratos"> Manejo y Administracion de Contratos
+	            	<input type="radio" required  name="programas_interesa" value="Manejo y Administracion de Contratos"> Manejo y Administracion de Contratos
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Desarrollo y Gerencia de Productos en línea"> Desarrollo y Gerencia de Productos en línea
+	            	<input type="radio" required  name="programas_interesa" value="Desarrollo y Gerencia de Productos en línea"> Desarrollo y Gerencia de Productos en línea
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Como ser un emprendedor (Entrepreunership) "> Como ser un emprendedor (Entrepreunership) 
+	            	<input type="radio" required  name="programas_interesa" value="Como ser un emprendedor (Entrepreunership) "> Como ser un emprendedor (Entrepreunership) 
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Como usar Excel, Powerpoint y Microsoftword"> Como usar Excel, Powerpoint y Microsoftword
+	            	<input type="radio" required  name="programas_interesa" value="Como usar Excel, Powerpoint y Microsoftword"> Como usar Excel, Powerpoint y Microsoftword
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Aprender a hablar en Ingles"> Aprender a hablar en Ingles
+	            	<input type="radio" required  name="programas_interesa" value="Aprender a hablar en Ingles"> Aprender a hablar en Ingles
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Analisis de datos (Data Science)"> Analisis de datos (Data Science)
+	            	<input type="radio" required  name="programas_interesa" value="Analisis de datos (Data Science)"> Analisis de datos (Data Science)
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer11" value="Ninguna de estas opciones me interesa"> Ninguna de estas opciones me interesa
+	            	<input type="radio" required  name="programas_interesa" value="Ninguna de estas opciones me interesa"> Ninguna de estas opciones me interesa
 	        	</label>
 	        </div>
 		</section>
@@ -557,12 +557,12 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer12" value="Si, dispuesto a estudiar en ingles"> Si, dispuesto a estudiar en ingles
+	            	<input type="radio" required  name="ingles" value="Si, dispuesto a estudiar en ingles"> Si, dispuesto a estudiar en ingles
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer12" value="Solo lo estudiaría si el programa fuera en español"> Solo lo estudiaría si el programa fuera en español
+	            	<input type="radio" required  name="ingles" value="Solo lo estudiaría si el programa fuera en español"> Solo lo estudiaría si el programa fuera en español
 	        	</label>
 	        </div>
 		</section>
@@ -574,27 +574,27 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer13" value="Definitivamente Si"> Definitivamente Si
+	            	<input type="radio" required  name="estudiar_internet" value="Definitivamente Si"> Definitivamente Si
 				</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer13" value="Muy probable"> Muy probable
+	            	<input type="radio" required  name="estudiar_internet" value="Muy probable"> Muy probable
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer13" value="Probable"> Probable
+	            	<input type="radio" required  name="estudiar_internet" value="Probable"> Probable
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer13" value="Poco probable"> Poco probable
+	            	<input type="radio" required  name="estudiar_internet" value="Poco probable"> Poco probable
 	        	</label>
 	        </div>
 	        <div class="column small-12">
 	        	<label>
-	            	<input type="radio" required  name="answer13" value="Definitivamente no"> Definitivamente no
+	            	<input type="radio" required  name="estudiar_internet" value="Definitivamente no"> Definitivamente no
 	        	</label>
 	        </div>
 		</section>
@@ -606,7 +606,7 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-12">
 	        	<label class="text-right">
-	            	<textarea name="answer14" id="" cols="30" rows="5"></textarea>
+	            	<textarea name="otro_tema_estudiar" id="" cols="30" rows="5"></textarea>
 				</label>
 				<small class="error">Este campo es requerido.</small>
 	        </div>
@@ -624,7 +624,7 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-4">
 	        	<label for="">
-	            	<select required  name="answer15" id="">
+	            	<select required  name="tarjet_credito_local" id="">
 	            		<option value="">Elige una opción</option>
 	            		<option value="Sí">Sí</option>
 	            		<option value="No">No</option>
@@ -642,7 +642,7 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-4">
 	        	<label for="">
-	            	<select required  name="answer16" id="">
+	            	<select required  name="tarjet_credito_dolares" id="">
 	            		<option value="">Elige una opción</option>
 	            		<option value="Sí">Sí</option>
 	            		<option value="No">No</option>
@@ -660,7 +660,7 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-4">
 	        	<label for="">
-	            	<select required  name="answer17" id="">
+	            	<select required  name="tarjet_credito_internacionales" id="">
 	            		<option value="">Elige una opción</option>
 	            		<option value="Sí">Sí</option>
 	            		<option value="No">No</option>
@@ -678,7 +678,7 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-4">
 	        	<label for="">
-	            	<select required  name="answer18" id="">
+	            	<select required  name="tarjet_credito_internacionales_mensual" id="">
 	            		<option value="">Elige una opción</option>
 	            		<option value="Sí">Sí</option>
 	            		<option value="No">No</option>
@@ -696,7 +696,7 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-4">
 	        	<label for="">
-	            	<select required  name="answer19" id="">
+	            	<select required  name="cheques" id="">
 	            		<option value="">Elige una opción</option>
 	            		<option value="Sí">Sí</option>
 	            		<option value="No">No</option>
@@ -715,7 +715,7 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-4">
 	        	<label for="">
-	            	<select required  name="answer20" id="">
+	            	<select required  name="cuenta_ahorros" id="">
 	            		<option value="">Elige una opción</option>
 	            		<option value="Sí">Sí</option>
 	            		<option value="No">No</option>
@@ -734,7 +734,7 @@ ocasional, “pololos”, cuidador de autos, limosna).
 	        </div>
 	        <div class="column small-4">
 				<label for="">
-	            	<select required  name="answer21" id="">
+	            	<select required  name="tarjeta_debito" id="">
 	            		<option value="">Elige una opción</option>
 	            		<option value="Sí">Sí</option>
 	            		<option value="No">No</option>
@@ -773,12 +773,13 @@ var Form = {
 			
 			$.ajax({
 				type	: "POST",
-				url	: "./contactus/submit",
+				url	: "./survey/save",
 				data    : me.getValues(),
 				//dataType: "json",
 				success	: function() {
 					$("#"+me.id+"-modal").foundation('reveal', 'open');
 					$("#"+me.id)[0].reset();
+					//document.location.href ="./survey/thankyou"
 				}
 			});
 		});

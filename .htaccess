@@ -1,0 +1,9 @@
+RewriteEngine on
+
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+
+RewriteCond $1 !^(index\.php|js|css|img|fonts)
+RewriteRule ^(.*)$ index.php/$1 [L]
